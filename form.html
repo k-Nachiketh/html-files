@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./salaar.jpeg">
+         <fieldset>
+            <legend>Details</legend>
+        <label for="user">User Name : </label>
+        <input type="text" name="user" id="user" placeholder="enter user name"><br>
+        <label for="pn">Phone no    : </label>
+        <input type="text"  id="pn" name="pno"  placeholder="enter phone number"><br>
+        <label for="email">Email    :    </label>
+        <input type="email" id="email"  name="email" placeholder="enter email" pattern="[a-zA-Z\d@#$%&*\s]+@gmail\.[a-z]{2,3}"><br>
+        <label for="pw">Password    : </label>
+        <input type="text"id=pw namw="pw" pattern=(?=.*[a-z])(?=.*[\d])(?=.*[@#$%^&*]).{5,9}
+         placeholder="enter password"><br>
+        <label for="tarea">Address  :  </label><br>
+        <textarea rows="10" cols="30"> Abbapur B,Nizamabad,Telangana </textarea><br>
+        <label>Select Files         :</label>
+        <input type="file" name="file" placeholder="select files" multiple accept=".pdf,.docx"><br>
+        <select >
+            <option value=""  selected disabled>select  </option>
+            <option value="=bmw"> RR</option>
+            <option value="audi"> BMW</option>
+            <option value="benz"> SUPRA</option> 
+        </select><br>
+             <label>Select Gender</label><br>
+        <input type="radio" id="g" name="gender" value="male" >
+            <label for="g">Male</label><br>
+        <input type="radio" id="fm" name="gender" value="female">
+             <label for="fm">Female</label><br>
+             <label>Select Language</label><br>
+        <input type="checkbox" id="lan" name="language" value="english">
+             <label for="lan">English</label><br>
+        <input type="checkbox" id="id" name="language" value="telugu">
+                <label for="id">Telugu</label><br>
+
+        <input type="checkbox"  id="lang" name="language" value="bhanjara">
+             <label for="lang">Bhanjara</label><br>
+           <label for="date">Date</label>
+       <input type="date" id="date" name="date"><br>
+             <label for="time">Time</label>
+       <input type="time" id="time" name="time"><br>
+             <label for="clr">Color</label>
+       <input type="color" id="clr"><br>
+       <input type="button" value="reset">
+       <input type="submit" value="submit">
+          </fieldset>
+
+    </form>
+</body>
+</html>
