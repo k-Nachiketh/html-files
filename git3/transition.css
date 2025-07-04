@@ -1,0 +1,46 @@
+body{
+    display:flex;
+align-items:center;
+    justify-content: center;
+}
+.container{
+    background-color: aqua;
+ width:70%;
+ height:600px;
+ transition:all 2s ease;
+
+}
+
+img{
+    width:50%;
+    height:500px;
+    display: none;
+}
+button{
+ 
+    padding:30px;
+    justify-content: center;
+    flex-direction:row;
+    border-radius: 10px;
+}
+
+.dog:hover ~.img1{ 
+    border-radius:30px;
+   display: block;
+}
+.rabbit:hover ~.img2{
+    display:block;
+    border-radius:30px
+    
+}
+.snake:hover ~.img3{
+    display:block;
+    border-radius:30px;
+}.flower:hover ~.img4{
+    border-radius: 30px;
+    display:block;
+}.fruit:hover ~.img5{
+    border-radius: 30px;
+    display:block;
+
+}
